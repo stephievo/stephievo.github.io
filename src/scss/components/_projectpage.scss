@@ -1,0 +1,58 @@
+@import '../variables';
+
+.projectBanner {
+  background-color: #E7FCFC;
+  height: 55vh;
+  margin: 30px 0px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+
+  &-tiptap {
+    background: url("../../src/assets/TipTapBanner2.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &-depression {
+    background: url("../../src/assets/DepressionBanner.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  &-lfg {
+    background: url("../../src/assets/LFGbanner.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.projectContent {
+  text-align: left;
+  padding-bottom: 150px;
+}
+
+img {
+  max-width: 60vw;
+  align-self: center;
+  padding-top: 40px;
+  margin: auto;
+}
+
+.cell {
+  padding: 80px 30px 0px 30px;
+}
+
+.otherprojects {
+  margin-bottom: 100px;
+}
+
+
+
+//SMALL PHONES
+@media only screen and (max-width: 425px) {
+  .cell {
+    padding: 50px 0 0 0;
+  }
+  img {
+    max-width: 75vw;
+  }
+}
