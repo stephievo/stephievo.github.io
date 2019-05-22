@@ -146,11 +146,14 @@ class LFGRedesign extends Component {
           </Col>
           <Col className="cell" lg={7}>
           <p>
-            A lot of the interviewees complained about the messy navigation.
-            The majority of the pain points could be tackled with an information architecture revision and topic prioritization.
-            They were preventing the website from fulfilling its purpose and being a useful tool for providing critical information.
+            A lot of the interviewees complained about the messy navigation. The navigation bar didn't make it clear on which page
+            the visitor currently was and what sublevels were available. Links were not distinguishable from the rest of the page and in general there wasn't much of a visual hierarchy.
+            Users who visited the page for the first time and don't know the school don't have a way to quickly find out what it's about.
             <br />
-            With card sorting I could gather expectations from the test persons for the content infrastructure and semantic groupings.
+            <br />
+            The majority of the pain points could be tackled with an information architecture revision and topic prioritization.
+            They were preventing the website from fulfilling its purpose of being a useful tool for providing critical information.
+            With card sorting I could gather expectations from the test persons for the content and navigation.
             Comparing those with existing school websites helped me restructure the page.
           </p>
           </Col>
@@ -167,7 +170,27 @@ class LFGRedesign extends Component {
           <h2>Implementing findings of research</h2>
           </Col>
           <Col className="cell" lg={7}>
-          <p> TODO
+          <p> With a new information architecture for the navigation, I started designing and protoyping the landing page and the user flows for
+          reaching the contact page, the school profile and the school calendar.
+          The start page now displayes a welcoming banner, cards with the school's focal points, upcoming events and current news so the visitor
+          does not have to search for the most relevant info. But there's a search function in the navigation just in case they are looking for
+          something specific.
+          Contact information could be gathered from the footer or the separate contact page, accessible from the navigation bar with dropdown menus.
+          Pages would have breadcrumbs and a header so visitors would not get lost.
+          <br />
+          <br />
+          I had the test persons try out the prototype regularly to review changes I had made and tried to get feedback for improvement.
+          The majority were satisfied with the results.
+          <br />
+          <br />
+          Have a look at the <a className="textdecoration--none" target="_blank" rel="noopener noreferrer" href="https://xd.adobe.com/view/9e369747-30df-46af-7a5a-898b25eb0367-e807/?hints=off">Adobe Xd prototype</a>!<br />
+          <br />
+          </p>
+          <p style={{fontSize: 15}}>
+          Paths:<br />
+          Home &gt; Schule &gt; Schulprofil &gt; different tabs<br />
+          Home &gt; Aktuelles &gt; Terminplan or button in table on front page<br />
+          Home &gt; Kontakt or button in footer
           </p>
           </Col>
         </Row>
@@ -179,9 +202,9 @@ class LFGRedesign extends Component {
         </Row>
 
         <Row data-aos='fade-up'>
-
           <img src={comparison} alt="Comparison of the original website and my redesign" />
         </Row>
+
 
         <Row data-aos='fade-up'>
           <Col className="cell" lg={{ span: 3, offset: 1 }}>
@@ -190,6 +213,10 @@ class LFGRedesign extends Component {
           <Col className="cell" lg={7}>
           <p> Throughout this project I had to keep in mind that instead of trying to create a website
           I should concentrate on designing a better way for users to get necessary information.
+
+          As someone who started with front end development I sometimes drift into that spiral
+          where I think of features that would fit in the project but then I snap back and have to focus on the users and what THEY want.
+          Putting post its everywhere that say "Focus on the user and all else will follow." helps!
           </p>
           </Col>
         </Row>

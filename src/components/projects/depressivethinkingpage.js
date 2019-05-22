@@ -68,10 +68,14 @@ class DepressiveThinking extends Component {
           <p> Usually a person's mind should have a healthy mix of negative and positive thoughts. With cognitive distortions
           they fall out of balance and in this case the negative aspects gain more weight and significance.
           To give those thoughts shape I opted for really simple symbols which are interchangeable, Xs and Os.
-          <br />
-          <br />
           From here on it was quite a straight forward approach by taking the cognitive distortions by their literal definition
           and depicting them with the symbols.
+          <br />
+          <br />
+          For the colors, according to Google the "Depression Awareness Color" is green.
+          The presented green shade omitted some kind of calmness and healing power to me (which is not bad) but I wanted the
+          illustrations to be a bit more fresh and stimulating so I went for a minty green/turqoise mix. The cold purple should
+          represent the opposite.
 
           </p>
           </Col>
