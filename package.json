@@ -2,9 +2,11 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://stephievo.github.io/",
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "react": "^16.8.2",
     "react-bootstrap": "^1.0.0-beta.5",
@@ -18,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -62,7 +62,7 @@ class DepressiveThinking extends Component {
 
         <Row>
           <Col className="cell" lg={{ span: 3, offset: 1 }}>
-          <h2>Process</h2>
+          <h2>My approach</h2>
           </Col>
           <Col className="cell" lg={7}>
           <p> Usually a person's mind should have a healthy mix of negative and positive thoughts. With cognitive distortions
