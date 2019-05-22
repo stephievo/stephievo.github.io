@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
-import '../scss/main.scss'
+import '../scss/main.scss';
+
+import zelda from '../assets/zeldasecret.wav';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -10,15 +12,24 @@ class About extends Component {
   constructor () {
     super()
       this.state = {
-        isHidden: true
+        isHidden: true,
     }
   }
+
   toggleHidden () {
+    var audio = new Audio(zelda)
     this.setState({
       isHidden: !this.state.isHidden
-    })
+    });
+
+    if (this.state.isHidden) {
+      audio.play()
+    }
+
+
   }
   render() {
+
     return(
       <div className="aboutMeWrap" data-aos='fade-left'>
       <Container>
