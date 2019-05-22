@@ -31,7 +31,7 @@
 
 .aboutMeWrap {
   margin-top: 18vh;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .projectPageWrap {
@@ -48,4 +48,5 @@
     text-align: center;
     background: white;
     font-size: 13px;
+    bottom: 0;
 }

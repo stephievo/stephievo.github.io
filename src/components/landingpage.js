@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import ProjectCards from './projectcards';
 
+import zelda from '../assets/zeldasecret.wav';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,12 +17,25 @@ import '../scss/main.scss'
 class Landing extends Component {
 
   constructor(props){
-   super(props)
-   this.state = {
-  }
+    super(props)
+      this.state = {
+        isHidden: true,
+    }
    //creates a reference for your element to use
    this.projects = React.createRef()
   }
+
+  toggleHidden () {
+    var audio = new Audio(zelda)
+    this.setState({
+      isHidden: false,
+    });
+
+    if (this.state.isHidden) {
+      audio.play()
+    }
+  }
+
 
   handleOnClick = (event) => {
     //.current is verification that your element has rendered
@@ -33,6 +48,8 @@ class Landing extends Component {
   }
 
   render() {
+
+    var className = this.state.isHidden ? 'easteregg':'treasure';
     return(
       <div>
         <div className="landingWrap" data-aos='fade-left'>
@@ -42,7 +59,7 @@ class Landing extends Component {
               <Row>
                 <Col lg={{ span: 7, offset: 1}}>
                   <p className="p-big">Hi! <span role="img" aria-label="wavehand">👋 </span>
-                  I’m Stephie, a Computer Science student with a knack for design.<br />
+                  I’m <span className={className} onClick={this.toggleHidden.bind(this)}>Steph{!this.state.isHidden && <span className="treasure">an</span>}ie</span>, a Computer Science student with a knack for design.<br />
                   Currently at Stuttgart Media University.
                   </p>
                 </Col>
