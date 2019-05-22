@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "08a8eefc750695b36ccf",
-    "url": "/static/css/main.19962d5f.chunk.css"
+    "revision": "61b99b66f97caa737c66",
+    "url": "/static/css/main.02828111.chunk.css"
   },
   {
-    "revision": "08a8eefc750695b36ccf",
-    "url": "/static/js/main.08a8eefc.chunk.js"
+    "revision": "61b99b66f97caa737c66",
+    "url": "/static/js/main.61b99b66.chunk.js"
   },
   {
-    "revision": "fdfcfda2d9b1bf31db52",
-    "url": "/static/js/runtime~main.fdfcfda2.js"
+    "revision": "42ac5946195a7306e2a5",
+    "url": "/static/js/runtime~main.42ac5946.js"
   },
   {
-    "revision": "b755cb8e02f8d5fa1ae6",
-    "url": "/static/css/2.8f28b1c9.chunk.css"
+    "revision": "0940c6468df2c116fbac",
+    "url": "/static/css/2.bba4639c.chunk.css"
   },
   {
-    "revision": "b755cb8e02f8d5fa1ae6",
-    "url": "/static/js/2.b755cb8e.chunk.js"
+    "revision": "0940c6468df2c116fbac",
+    "url": "/static/js/2.0940c646.chunk.js"
   },
   {
     "revision": "a2dcadc06d8a3607f1561f937c1a0f61",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "0562f62107dbeb5b79b910a5cfec19a3",
     "url": "/static/media/TipTapBanner2.0562f621.png"
+  },
+  {
+    "revision": "55f4ba2b05e0d2b013d1c173d5f1e288",
+    "url": "/static/media/zeldasecret.55f4ba2b.wav"
   },
   {
     "revision": "05b05b9b0683cf192b7f56ec0261c4ef",
@@ -104,7 +108,7 @@ self.__precacheManifest = [
     "url": "/static/media/comparison.5c1fa5db.png"
   },
   {
-    "revision": "82658487263fddbaf03a864487da2c0c",
+    "revision": "9f7fcab823a07dcf3b1c5a28dabbdc74",
     "url": "/index.html"
   }
 ];
