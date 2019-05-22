@@ -99,8 +99,12 @@ a {
                     $grey);
   animation: 0.2s shake infinite alternate;
 }
-.treasure{
+.treasure {
   color: #6dc67c;
+
+  &:hover {
+    color: #6dc67c;
+  }
 }
 
 @keyframes shake {
