@@ -17,6 +17,13 @@ body,html  {
   width :34px;
 }
 
+//SMALL PHONES
+@media only screen and (max-width: 425px) {
+  .mouseWrap {
+    bottom: 13vh;
+  }
+}
+
 .mousey {
   width: 3px;
   padding: 10px 15px;
