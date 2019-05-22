@@ -13,6 +13,15 @@
   padding-top: 28vh;
 }
 
+
+//SMALL PHONES
+@media only screen and (max-width: 375px) {
+  .bannerWrap {
+    padding-top: 20vh;
+  }
+}
+
+
 .projectsWrap {
   padding-top: 60px;
   padding-left: 5vw;
