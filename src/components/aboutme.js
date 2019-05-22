@@ -7,6 +7,17 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 class About extends Component {
+  constructor () {
+    super()
+      this.state = {
+        isHidden: true
+    }
+  }
+  toggleHidden () {
+    this.setState({
+      isHidden: !this.state.isHidden
+    })
+  }
   render() {
     return(
       <div className="aboutMeWrap" data-aos='fade-left'>
@@ -15,7 +26,7 @@ class About extends Component {
           <Col lg={{ span: 7, offset: 1 }}>
             <p className="p-big">Hi again! <span role="img" aria-label="wavehand">🐒</span></p>
             <br />
-            <p className="p-medium">My name is Steph<span style={{opacity: 0.4}}>an</span>ie Vo and I’m from Munich.
+            <p className="p-medium">My name is <span onClick={this.toggleHidden.bind(this)}>Steph{!this.state.isHidden && <span style={{opacity: 0.4}}>an</span>}ie</span> Vo and I’m from Munich.
             <br />
 I’m currently studying Computer Science and Media at the
 Stuttgart Media University, having focused on Web Development, Computer Graphics and UX. Particularly interested in the relationship between people and technology. So far I have worked at the <a className="textdecoration--none" target="_blank" rel="noopener noreferrer" href="http://innovationhub.fleetboard.com/">Daimler Fleetboard Innovation Hub</a> and on student projects.
