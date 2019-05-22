@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "234fc68d586df1dd6fe1",
-    "url": "/static/css/main.32134947.chunk.css"
+    "revision": "01493b7c603c2a968a04",
+    "url": "/static/css/main.05e22d1f.chunk.css"
   },
   {
-    "revision": "234fc68d586df1dd6fe1",
-    "url": "/static/js/main.234fc68d.chunk.js"
+    "revision": "01493b7c603c2a968a04",
+    "url": "/static/js/main.01493b7c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.42ac5946.js"
   },
   {
-    "revision": "0940c6468df2c116fbac",
+    "revision": "97ee41117d0e10956d39",
     "url": "/static/css/2.bba4639c.chunk.css"
   },
   {
-    "revision": "0940c6468df2c116fbac",
-    "url": "/static/js/2.0940c646.chunk.js"
+    "revision": "97ee41117d0e10956d39",
+    "url": "/static/js/2.97ee4111.chunk.js"
   },
   {
     "revision": "a2dcadc06d8a3607f1561f937c1a0f61",
@@ -34,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "55f4ba2b05e0d2b013d1c173d5f1e288",
     "url": "/static/media/zeldasecret.55f4ba2b.wav"
+  },
+  {
+    "revision": "6046be1ed8e99766be58504d251be3e5",
+    "url": "/static/media/me.6046be1e.jpg"
   },
   {
     "revision": "05b05b9b0683cf192b7f56ec0261c4ef",
@@ -108,7 +112,7 @@ self.__precacheManifest = [
     "url": "/static/media/comparison.5c1fa5db.png"
   },
   {
-    "revision": "d68d178a5f7a9f8603c268c2488a10ea",
+    "revision": "1f43e7f058eba2f012e64d2bc6650749",
     "url": "/index.html"
   }
 ];
