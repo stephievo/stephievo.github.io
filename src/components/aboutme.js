@@ -19,7 +19,7 @@ class About extends Component {
   toggleHidden () {
     var audio = new Audio(zelda)
     this.setState({
-      isHidden: !this.state.isHidden
+      isHidden: false,
     });
 
     if (this.state.isHidden) {
