@@ -59,7 +59,7 @@ class Landing extends Component {
               <Row>
                 <Col lg={{ span: 7, offset: 1}}>
                   <p className="p-big">Hi! <span role="img" aria-label="wavehand">👋 </span>
-                  I’m <span className={className} onClick={this.toggleHidden.bind(this)}>Steph{!this.state.isHidden && <span className="treasure">an</span>}ie</span>, a Computer Science student with a knack for design.<br />
+                  I’m <a href="#" className={className} onClick={this.toggleHidden.bind(this)}>Steph{!this.state.isHidden && <span className="treasure">an</span>}ie</a>, a Computer Science student with a knack for design.<br />
                   Currently at Stuttgart Media University.
                   </p>
                 </Col>
