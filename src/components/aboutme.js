@@ -29,6 +29,7 @@ class About extends Component {
   }
 
   render() {
+  // eslint-disable-next-line
     var className = this.state.isHidden ? 'easteregg':'treasure';
     return(
       <div className="aboutMeWrap" data-aos='fade-left'>
@@ -45,11 +46,11 @@ Particularly interested in the relationship between people and technology and th
  <br />So far I have worked at the <a className="textdecoration--none" target="_blank" rel="noopener noreferrer" href="http://innovationhub.fleetboard.com/">Daimler Fleetboard Innovation Hub</a>,
  on student projects and projects outside of school, where I really enjoyed working in interdisciplinary teams to solve challenges and deliver creative solutions.
 <br /><br />
-Other than that I really like swimming, cinema, Tame Impala, potatoes and the Legend of Zelda.
+Other than that I really like swimming, cinema, Tame Impala, potatoes and The Legend of Zelda.
 <br />
 <br />
-Liked what you've seen? Or want to know more? <a href="mailto:hellostephievo@gmail.com">Say hello!</a>
-<br /> Or have a look at my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1wjAi21Kk07B9XlYiLY9urK8RKQeqtGI1/view?usp=sharing">résumé</a>.
+Liked what you've seen? Or want to know more? <a href="mailto:hello@stephievo.com">Say hello!</a>
+<br /> Or have a look at my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/19WsMza22zx-i2LW8pHzFY2KAQugqnPu1/view?usp=sharing">résumé</a>.
 </p>
           </Col>
           <Col lg={{ span: 3, offset: 1 }}>

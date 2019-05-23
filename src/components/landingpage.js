@@ -50,6 +50,8 @@ class Landing extends Component {
   render() {
 
     var className = this.state.isHidden ? 'easteregg':'treasure';
+    var className2 = this.state.isHidden ? 'nowave':'wave';
+
     return(
       <div>
         <div className="landingWrap" data-aos='fade-left'>
@@ -58,8 +60,11 @@ class Landing extends Component {
             <Container>
               <Row>
                 <Col lg={{ span: 7, offset: 1}}>
-                  <p className="p-big">Hi! <span role="img" aria-label="wavehand">👋 </span>
-                  I’m <a href="#" className={className} onClick={this.toggleHidden.bind(this)}>Steph{!this.state.isHidden && <span className="treasure">an</span>}ie</a>, a Computer Science student with a knack for design.<br />
+                  <p className="p-big">Hi! <span className={className2} role="img" aria-label="wavehand">👋  </span> I’m
+
+                   {
+  // eslint-disable-next-line
+  } <a href="#" className={className} onClick={this.toggleHidden.bind(this)}>Steph{!this.state.isHidden && <span className="treasure">an</span>}ie</a>, a Computer Science student with a knack for design.<br />
                   Currently at Stuttgart Media University.
                   </p>
                 </Col>

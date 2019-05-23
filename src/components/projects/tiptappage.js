@@ -18,7 +18,7 @@ class TipTap extends Component {
     return(
       <div className="projectPageWrap" data-aos="fade-up">
         <h1>TipTap</h1>
-        <p className="subtitle">Rethinking retirement for young people - A hackathon project.</p>
+        <p className="subtitle">Rethinking retirement for young people - A hackathon winning project.</p>
         <div className="projectBanner projectBanner-tiptap">
         </div>
 

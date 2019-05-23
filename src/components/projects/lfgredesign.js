@@ -27,7 +27,7 @@ class LFGRedesign extends Component {
     return(
       <div className="projectPageWrap" data-aos="fade-up">
         <h1>LFG website redesign</h1>
-        <p className="subtitle">Analysing the design and information architecture of a high school homepage - A case study.</p>
+        <p className="subtitle">Taking a closer look at the design and information architecture of a high school homepage - A case study.</p>
         <div className="projectBanner projectBanner-lfg">
         </div>
 
@@ -36,7 +36,7 @@ class LFGRedesign extends Component {
 
         <Row>
           <Col className="cell" lg={{ span: 7, offset: 1 }} data-aos='fade-up'>
-          <p> The Lion-Feuchtwanger-Gymnasum (LFG) is a high school that covers 5th grade to 12th grade.
+          <p> The Lion-Feuchtwanger-Gymnasium (LFG) is a high school that covers 5th grade to 12th grade.
           Besides basic school related information and important documents <a className="textdecoration--none" target="_blank" rel="noopener noreferrer" href="https://lfg.musin.de/"> their website</a> provides content on school life, projects
           and recent activities. In this case study I analysed the information architecture and UX
           and redesigned it according to the users'/personas' needs.
@@ -237,7 +237,7 @@ class LFGRedesign extends Component {
             <Card.Title className="cardtitle">TipTap</Card.Title>
             <Card.Text>
             <small className="text-muted">
-              Front-End Development
+              Front-End Development, Rapid Protoyping
             </small>
             </Card.Text>
           </Card.Body>

@@ -34,6 +34,36 @@ class ProjectCards extends Component {
           <Card.Title className="cardtitle">TipTap</Card.Title>
           <Card.Text>
           <small className="text-muted">
+            Front-End Development, Rapid Prototyping
+          </small>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      </a>
+      </Link>
+
+      <Link to="/exitgames" data-aos='fade-up'>
+      <a href="/exitgames">
+      <Card className="card">
+        <Card.Body>
+          <Card.Title className="cardtitle">Exit Games (WIP)</Card.Title>
+          <Card.Text>
+          <small className="text-muted">
+            User Research, UX Design, Digital Illustration
+          </small>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      </a>
+      </Link>
+
+      <Link to="/fleetboard" data-aos='fade-up'>
+      <a href="/fleetboard">
+      <Card className="card">
+        <Card.Body>
+          <Card.Title className="cardtitle">Fleetboard Design System</Card.Title>
+          <Card.Text>
+          <small className="text-muted">
             Front-End Development
           </small>
           </Card.Text>

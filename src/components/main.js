@@ -6,6 +6,8 @@ import About from './aboutme';
 import TipTap from './projects/tiptappage';
 import DepressiveThinking from './projects/depressivethinkingpage';
 import LFGRedesign from './projects/lfgredesign';
+import ExitGames from './projects/exitgames';
+import Fleetboard from './projects/fleetboard';
 
 
 const Main = () => (
@@ -15,6 +17,8 @@ const Main = () => (
     <Route path="/lfgredesign" component={LFGRedesign} />
     <Route path="/tiptap" component={TipTap} />
     <Route path="/depressivethinking" component={DepressiveThinking} />
+    <Route path="/exitgames" component={ExitGames} />
+    <Route path="/fleetboard" component={Fleetboard} />
   </Switch>
 )
 

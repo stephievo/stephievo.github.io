@@ -159,7 +159,7 @@ class DepressiveThinking extends Component {
             <Card.Title className="cardtitle">TipTap</Card.Title>
             <Card.Text>
             <small className="text-muted">
-              Front-End Development
+              Front-End Development, Rapid Protoyping
             </small>
             </Card.Text>
           </Card.Body>

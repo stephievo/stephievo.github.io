@@ -32,8 +32,8 @@ class NavBar extends Component {
             </Link>
 
           </Nav>
-          <a href="https://drive.google.com/file/d/1wjAi21Kk07B9XlYiLY9urK8RKQeqtGI1/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-          <Nav.Link href="https://drive.google.com/file/d/1wjAi21Kk07B9XlYiLY9urK8RKQeqtGI1/view?usp=sharing" target="_blank" style={{ color: "#707070", float: 'right', paddingRight: 0}}>Résumé</Nav.Link>
+          <a href="https://drive.google.com/file/d/19WsMza22zx-i2LW8pHzFY2KAQugqnPu1/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <Nav.Link href="https://drive.google.com/file/d/19WsMza22zx-i2LW8pHzFY2KAQugqnPu1/view?usp=sharing" target="_blank" style={{ color: "#707070", float: 'right', paddingRight: 0}}>Résumé</Nav.Link>
           </a>
         </Navbar.Collapse>
       </Navbar>
