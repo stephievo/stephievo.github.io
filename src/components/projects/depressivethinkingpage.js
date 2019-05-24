@@ -38,7 +38,7 @@ class DepressiveThinking extends Component {
 
         <Row>
           <Col className="cell" lg={{ span: 7, offset: 1 }}>
-          <p> In the scope of a school project I had to research and present thinking patterns or so called cognitive distortions that are associated with depression.
+          <p> In the scope of a university project I had to research and present thinking patterns or so called cognitive distortions that are associated with depression.
           To clarify what those patterns exactly do to one who suffers from them I decided to make simplified depictions.
           </p>
           </Col>

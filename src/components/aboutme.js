@@ -44,7 +44,7 @@ I’m currently studying Computer Science and Media at the
 Stuttgart Media University, having focused on Web Development, Computer Graphics and UX.
 Particularly interested in the relationship between people and technology and therefore also human-centered design.
  <br />So far I have worked at the <a className="textdecoration--none" target="_blank" rel="noopener noreferrer" href="http://innovationhub.fleetboard.com/">Daimler Fleetboard Innovation Hub</a>,
- on student projects and projects outside of school, where I really enjoyed working in interdisciplinary teams to solve challenges and deliver creative solutions.
+ on university projects and projects outside of the classroom, where I really enjoyed working in interdisciplinary teams to solve challenges and deliver creative solutions.
 <br /><br />
 Other than that I really like swimming, cinema, Tame Impala, potatoes and The Legend of Zelda.
 <br />
