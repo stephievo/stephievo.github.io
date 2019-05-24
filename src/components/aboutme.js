@@ -36,7 +36,7 @@ class About extends Component {
       <Container>
         <Row>
           <Col xl={{ span: 6, order: 1}} md={{ span: 10, offset: 1 }} sm={{ span: 12 }} xs={{ order: 2 }}>
-            <p className="p-big">Hi again! </p>
+            <p className="p-big">Hi again! <span role="img" aria-label="sparkles">✨ </span> </p>
             <br />
             <p className="p-medium" style={{ paddingBottom: 150}}>My name is Steph<span style={{opacity: 0.6}}>an</span>ie Vo and I’m from Munich.
             <br />
