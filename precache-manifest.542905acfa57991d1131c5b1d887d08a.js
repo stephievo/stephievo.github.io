@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9d285b0162f683810e03",
-    "url": "/static/css/main.fd084bd0.chunk.css"
+    "revision": "86b49617f57ea744ad98",
+    "url": "/static/css/main.8b0fb24c.chunk.css"
   },
   {
-    "revision": "9d285b0162f683810e03",
-    "url": "/static/js/main.9d285b01.chunk.js"
+    "revision": "86b49617f57ea744ad98",
+    "url": "/static/js/main.86b49617.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/static/media/fleetboardscreen.8787bb73.png"
   },
   {
-    "revision": "7304f116043fc2d5489de15ed09de9fd",
+    "revision": "9c3c6071fff1a75c62643e33e136e74a",
     "url": "/index.html"
   }
 ];
