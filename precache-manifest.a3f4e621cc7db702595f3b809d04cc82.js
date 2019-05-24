@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "67b72da19d6bbbf588d4",
-    "url": "/static/css/main.b5067467.chunk.css"
+    "revision": "1fca1c644847b9cfe03d",
+    "url": "/static/css/main.e4014458.chunk.css"
   },
   {
-    "revision": "67b72da19d6bbbf588d4",
-    "url": "/static/js/main.67b72da1.chunk.js"
+    "revision": "1fca1c644847b9cfe03d",
+    "url": "/static/js/main.1fca1c64.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.42ac5946.js"
   },
   {
-    "revision": "65a4e3b395975349118b",
+    "revision": "9ea6d3430ce19e7291e5",
     "url": "/static/css/2.bba4639c.chunk.css"
   },
   {
-    "revision": "65a4e3b395975349118b",
-    "url": "/static/js/2.65a4e3b3.chunk.js"
+    "revision": "9ea6d3430ce19e7291e5",
+    "url": "/static/js/2.9ea6d343.chunk.js"
   },
   {
     "revision": "1b5dbcff13dfce28423ee27ded37de9c",
@@ -32,12 +32,20 @@ self.__precacheManifest = [
     "url": "/static/media/TipTapBanner2.334bcd30.png"
   },
   {
+    "revision": "90550f2e4f75400715d71c9e357de8f8",
+    "url": "/static/media/ExitGamesBanner.90550f2e.png"
+  },
+  {
+    "revision": "583d4b2e2fbb2bbfdb80639e6bcd816e",
+    "url": "/static/media/FleetboardBanner.583d4b2e.png"
+  },
+  {
     "revision": "55f4ba2b05e0d2b013d1c173d5f1e288",
     "url": "/static/media/zeldasecret.55f4ba2b.wav"
   },
   {
-    "revision": "ff4ad4f8144331871c9324395f0deea1",
-    "url": "/static/media/me.ff4ad4f8.jpg"
+    "revision": "9b1a4009030c9cc27b3d635ae3ac91ed",
+    "url": "/static/media/me.9b1a4009.jpg"
   },
   {
     "revision": "05b05b9b0683cf192b7f56ec0261c4ef",
@@ -92,12 +100,8 @@ self.__precacheManifest = [
     "url": "/static/media/maxmin.e540a653.png"
   },
   {
-    "revision": "3cd3cf430155b5e279bf53cd30ae4352",
-    "url": "/static/media/lfggoal1.3cd3cf43.png"
-  },
-  {
-    "revision": "11823c901956f033ca14a9aa70ad8e3f",
-    "url": "/static/media/lfggoal3.11823c90.png"
+    "revision": "ffbd2311e64e571c7921e9eb938b6709",
+    "url": "/static/media/lfggoal3.ffbd2311.png"
   },
   {
     "revision": "8b703042dcd6845409410f28880c4c43",
@@ -112,7 +116,35 @@ self.__precacheManifest = [
     "url": "/static/media/comparison.5c1fa5db.png"
   },
   {
-    "revision": "3517a6132d52568511d838816ae0d9b6",
+    "revision": "0cc66b53f3b907fc493120c15942d112",
+    "url": "/static/media/standard.0cc66b53.png"
+  },
+  {
+    "revision": "ec1178d336df636231280f90a0620af9",
+    "url": "/static/media/drunk.ec1178d3.png"
+  },
+  {
+    "revision": "ac497f35afa7e2679399601d73cf0ad5",
+    "url": "/static/media/exit.ac497f35.png"
+  },
+  {
+    "revision": "78a77addde253317e592ff40678016ff",
+    "url": "/static/media/meetings.78a77add.png"
+  },
+  {
+    "revision": "9122332714944ab575a8e67b59f74b53",
+    "url": "/static/media/implement.91223327.png"
+  },
+  {
+    "revision": "ee72864f996a58abcb8d872190dbec19",
+    "url": "/static/media/integrate.ee72864f.png"
+  },
+  {
+    "revision": "8787bb73aa6b0c50dba6fae0b511b663",
+    "url": "/static/media/fleetboardscreen.8787bb73.png"
+  },
+  {
+    "revision": "25e12f5abacc967201b428f9126f6baf",
     "url": "/index.html"
   }
 ];
