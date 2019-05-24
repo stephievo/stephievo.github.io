@@ -29,15 +29,15 @@ class Fleetboard extends Component {
 
         <Row>
           <Col className="cell" lg={{ span: 7, offset: 1 }} data-aos='fade-up'>
-          <p>Fleetboard is a subsidiary company of the Daimler AG based in Stuttgart which
-          focused on the digitization and innovation in logistics.
+          <p>Fleetboard is a subsidiary company of the Daimler AG based in Stuttgart that
+          focuses on the digitization and innovation in logistics.
           In the course of my studies I had the chance to intern at their
           <a className="textdecoration--none" target="_blank" rel="noopener noreferrer" href="http://innovationhub.fleetboard.com/"> innovation hub </a> in the startup hotspot Berlin.
           Aside from assisting in several different projects and going to a hackathon in Finland, one of my tasks was implementing a new design system.
           <br />
           <br />
           <i>This project was still being worked on when I left and work here does not necessarily represent the final result.
-          Also the majority of the designs is confidential so they are not shown here.</i>
+          Also, the majority of the designs is confidential so they are not shown here.</i>
           </p>
           </Col>
           <Col className="cell" lg={3} data-aos='fade-up'>
@@ -68,7 +68,7 @@ class Fleetboard extends Component {
           <h2>The workflow</h2>
           </Col>
           <Col className="cell" lg={7}>
-          <p> From here on my work consisted these steps:
+          <p> From here on, my work consisted of these steps:
           </p>
           </Col>
         </Row>
@@ -90,8 +90,9 @@ class Fleetboard extends Component {
           <Col className="cell" lg={{ span: 3, offset: 1 }}>
           </Col>
           <Col className="cell" lg={7}>
-          <p>
-           The result was an easy to use, modern design system with a clean web interface.
+          <p> The parts I implemented were double checked by my supervisors via pull requests.
+          I went through the steps above in loops and worked closely with the parties involved.
+           That resulted in an easy to use, modern design system with a clean web interface.
           </p>
           </Col>
         </Row>
@@ -106,7 +107,7 @@ class Fleetboard extends Component {
           </Col>
           <Col className="cell" lg={7}>
           <p>Being part of this project taught me how to use SASS and BEM, how to work in a fairly big interdisciplinary team across
-          several rooms and how to contribute to a large scale product, all skills are important for my future.
+          several rooms and how to contribute to a large scale product, all skills that are important for my future.
           </p>
           </Col>
         </Row>
