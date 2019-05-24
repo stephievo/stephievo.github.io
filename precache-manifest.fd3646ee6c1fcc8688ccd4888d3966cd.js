@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "33357582733a9151e4d5",
-    "url": "/static/css/main.e4014458.chunk.css"
+    "revision": "d9b0365a09fb38fe678b",
+    "url": "/static/css/main.a74edda6.chunk.css"
   },
   {
-    "revision": "33357582733a9151e4d5",
-    "url": "/static/js/main.33357582.chunk.js"
+    "revision": "d9b0365a09fb38fe678b",
+    "url": "/static/js/main.d9b0365a.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -24,6 +24,10 @@ self.__precacheManifest = [
     "url": "/static/media/DepressionBanner.1b5dbcff.png"
   },
   {
+    "revision": "1fdc0d55c4741a2169049c817b18dfdf",
+    "url": "/static/media/FleetboardBanner.1fdc0d55.png"
+  },
+  {
     "revision": "4b298b0fff9ec35359b7307b91020859",
     "url": "/static/media/LFGbanner.4b298b0f.png"
   },
@@ -34,10 +38,6 @@ self.__precacheManifest = [
   {
     "revision": "90550f2e4f75400715d71c9e357de8f8",
     "url": "/static/media/ExitGamesBanner.90550f2e.png"
-  },
-  {
-    "revision": "583d4b2e2fbb2bbfdb80639e6bcd816e",
-    "url": "/static/media/FleetboardBanner.583d4b2e.png"
   },
   {
     "revision": "55f4ba2b05e0d2b013d1c173d5f1e288",
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/static/media/fleetboardscreen.8787bb73.png"
   },
   {
-    "revision": "088276da6b92f8a8efd43ed33127be9a",
+    "revision": "48f2f6979e8174a4f52b68afc701a04a",
     "url": "/index.html"
   }
 ];
