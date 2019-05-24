@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "282167677ba71f445a74",
-    "url": "/static/css/main.273e6934.chunk.css"
+    "revision": "0f5143336e76a1c18f02",
+    "url": "/static/css/main.292633e9.chunk.css"
   },
   {
-    "revision": "282167677ba71f445a74",
-    "url": "/static/js/main.28216767.chunk.js"
+    "revision": "0f5143336e76a1c18f02",
+    "url": "/static/js/main.0f514333.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/static/media/LFGbanner.4b298b0f.png"
   },
   {
-    "revision": "334bcd30b0541ba28ae901ddf7e7f15f",
-    "url": "/static/media/TipTapBanner2.334bcd30.png"
+    "revision": "85279fc46891aec356a547694ea5a360",
+    "url": "/static/media/ExitGamesBanner.85279fc4.png"
   },
   {
-    "revision": "90550f2e4f75400715d71c9e357de8f8",
-    "url": "/static/media/ExitGamesBanner.90550f2e.png"
+    "revision": "334bcd30b0541ba28ae901ddf7e7f15f",
+    "url": "/static/media/TipTapBanner2.334bcd30.png"
   },
   {
     "revision": "55f4ba2b05e0d2b013d1c173d5f1e288",
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/static/media/fleetboardscreen.8787bb73.png"
   },
   {
-    "revision": "3b1e8a59cfe06b67a015f2b410bdcc31",
+    "revision": "181a86d231e5435b1beff6f1aded39fc",
     "url": "/index.html"
   }
 ];
