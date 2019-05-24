@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "93baaaf477a38110186c",
-    "url": "/static/css/main.292633e9.chunk.css"
+    "revision": "e9c5ebb6083f725028d2",
+    "url": "/static/css/main.c514c0e6.chunk.css"
   },
   {
-    "revision": "93baaaf477a38110186c",
-    "url": "/static/js/main.93baaaf4.chunk.js"
+    "revision": "e9c5ebb6083f725028d2",
+    "url": "/static/js/main.e9c5ebb6.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/LFGbanner.4b298b0f.png"
   },
   {
-    "revision": "85279fc46891aec356a547694ea5a360",
-    "url": "/static/media/ExitGamesBanner.85279fc4.png"
+    "revision": "3948006a162cdd02810b89df67aac650",
+    "url": "/static/media/ExitGamesBanner.3948006a.png"
   },
   {
     "revision": "334bcd30b0541ba28ae901ddf7e7f15f",
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/static/media/fleetboardscreen.8787bb73.png"
   },
   {
-    "revision": "f999af109a7027c28cc339116c28acd3",
+    "revision": "b0be37926819415adb5622e8aeab1e3c",
     "url": "/index.html"
   }
 ];
