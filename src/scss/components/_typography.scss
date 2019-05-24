@@ -62,8 +62,8 @@ a {
 
 
 
-// PHONES
-@media only screen and (max-width: 425px) {
+// Mobile Devices
+@media only screen and (max-width: 680px) {
   h1 {
     font-size: 30px;
   }
@@ -78,6 +78,7 @@ a {
     line-height: 1.5em;
   }
 }
+
 
 .easteregg {
   background: none;
