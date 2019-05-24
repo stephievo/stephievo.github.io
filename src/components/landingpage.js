@@ -27,7 +27,7 @@ class Landing extends Component {
 
   toggleHidden () {
     var audio = new Audio(zelda);
-    audio.volume = 0.08;
+    audio.volume = 0.4;
 
     this.setState({
       isHidden: false,
