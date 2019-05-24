@@ -8,6 +8,8 @@ import speaking from '../../assets/exitgames/speaking.png';
 import drunk from '../../assets/exitgames/drunk.png';
 import exit from '../../assets/exitgames/exit.png';
 
+import research from '../../assets/exitgames/research.jpg';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -95,9 +97,27 @@ class ExitGames extends Component {
           <p> In the very first week our research team got the chance to attend the internal expo day
           at <a className="textdecoration--none" target="_blank" rel="noopener noreferrer" href="https://www.arena2036.de/de/"> ARENA2036 </a>,
           a research facility on campus that focuses on innovation in mobility. Corporate partners and professionals from the industry
-          were attending, the perfect crowd for us in this case.
+          were attending, the perfect crowd for us in this case. We set up a booth with a flip board and invited passing guests
+          to share their thoughts, ideas and wishes on autonomous shuttle services. A lot of pain points and user needs could already be gathered,
+          several of the interviewees compared it to their experience on planes or trains.
+          </p>
+          </Col>
+        </Row>
 
-          Goal: understanding user expections, needs, and motivations --Guerilla interviews
+        <Row data-aos='fade-up'>
+        <Col className="cell align-self-end" lg={{ span: 7, offset: 4 }}>
+          <img src={research} alt="Interview results" style={{ maxWidth: "100%"}}/>
+          <p className="subtitle">Our impromptu flipboard with input from the expo visitors.</p>
+        </Col>
+        </Row>
+
+        <Row data-aos='fade-up'>
+          <Col className="cell" lg={{ span: 3, offset: 1 }}>
+          </Col>
+          <Col className="cell" lg={7}>
+          <p>
+          The results were discussed back at the team meeting and the input was sorted into clusters. We could now start to
+          define the process steps that lead up to the exit of the shuttle vehicle.
           </p>
           </Col>
         </Row>
