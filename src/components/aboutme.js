@@ -46,7 +46,7 @@ Particularly interested in the relationship between people and technology and th
  <br />So far I have worked at the <a className="textdecoration--none" target="_blank" rel="noopener noreferrer" href="http://innovationhub.fleetboard.com/">Daimler Fleetboard Innovation Hub</a>,
  on university projects and projects outside of the classroom, where I really enjoyed working in interdisciplinary teams to solve challenges and deliver creative solutions.
 <br /><br />
-Other than that I really like swimming, cinema, Tame Impala, potatoes and The Legend of Zelda.
+Other than that I really like swimming, cinema, sparkling things, Tame Impala, potatoes and The Legend of Zelda.
 <br />
 <br />
 Liked what you've seen? Or want to know more? <a href="mailto:hello@stephievo.com">Say hello!</a>
