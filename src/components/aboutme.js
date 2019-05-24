@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import '../scss/main.scss';
 
 import me from '../assets/me.jpg';
-import zelda from '../assets/zeldasecret.wav';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -14,17 +13,6 @@ class About extends Component {
     super()
       this.state = {
         isHidden: true,
-    }
-  }
-
-  toggleHidden () {
-    var audio = new Audio(zelda)
-    this.setState({
-      isHidden: false,
-    });
-
-    if (this.state.isHidden) {
-      audio.play()
     }
   }
 
