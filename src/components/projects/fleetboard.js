@@ -20,7 +20,7 @@ class Fleetboard extends Component {
     return(
       <div className="projectPageWrap" data-aos="fade-up">
         <h1>Fleetboard Design System</h1>
-        <p className="subtitle">Bringing Fleetboard's new design guidelines to life - One of my tasks as an intern.</p>
+        <p className="subtitle">Bringing Daimler Fleetboard's new design guidelines to life - One of my tasks as an intern.</p>
         <div className="projectBanner projectBanner-fleetboard">
         </div>
 
@@ -29,7 +29,7 @@ class Fleetboard extends Component {
 
         <Row>
           <Col className="cell" lg={{ span: 7, offset: 1 }} data-aos='fade-up'>
-          <p>Fleetboard is a subsidiary company of the Daimler AG based in Stuttgart that
+          <p>Daimler Fleetboard is a department in the Daimler AG based in Stuttgart that
           focuses on the digitization and innovation in logistics.
           In the course of my studies I had the chance to intern at their
           <a className="textdecoration--none" target="_blank" rel="noopener noreferrer" href="http://innovationhub.fleetboard.com/"> innovation hub </a> in the startup hotspot Berlin.
@@ -53,10 +53,10 @@ class Fleetboard extends Component {
           </Col>
           <Col className="cell" lg={7}>
           <p>The design system I'm describing here was a preliminary UI toolkit for a
-          running Fleetboard project which was in the process of getting a redesign.
-          A more complete design system with a much bigger scope (as in THE Fleetboard design system) was still a work in progress,
+          running Daimler Fleetboard project which was in the process of getting a redesign.
+          A more complete design system with a much bigger scope (as in THE main design system) was still a work in progress,
           so the one I worked on was like the baby version or the pioneer for testing. The purpose of both was to sum up the entire
-          visual language and design guidelines for Fleetboard products and were meant to be merged at some point.
+          visual language and design guidelines for Daimler Fleetboard products and were meant to be merged at some point.
           The department had a styleguide until now but wanted to
           transition to a interactive application which offered the atoms and components with code and all, hence the design system.
           </p>
