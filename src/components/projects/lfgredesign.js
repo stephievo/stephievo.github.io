@@ -231,7 +231,6 @@ class LFGRedesign extends Component {
         <CardDeck className="carddeck">
 
         <Link to="/tiptap" data-aos='fade-up'>
-        <a href="/tiptap">
         <Card className="card card-tiptap">
           <Card.Body>
             <Card.Title className="cardtitle">TipTap</Card.Title>
@@ -242,22 +241,19 @@ class LFGRedesign extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        </a>
         </Link>
 
-        <Link to="/depressivethinking" data-aos='fade-up'>
-        <a href="/depressivethinking">
-        <Card className="card card-depression">
+        <Link to="/exitgames" data-aos='fade-up'>
+        <Card className="card card-exitgames">
           <Card.Body>
-            <Card.Title className="cardtitle">Depressive thinking patterns</Card.Title>
+            <Card.Title className="cardtitle">Exit Games (WIP)</Card.Title>
             <Card.Text>
             <small className="text-muted">
-              Digital Illustration
+              User Research, UX Design, Digital Illustration
             </small>
             </Card.Text>
           </Card.Body>
         </Card>
-        </a>
         </Link>
 
         </CardDeck>

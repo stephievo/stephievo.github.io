@@ -138,7 +138,6 @@ class DepressiveThinking extends Component {
         <CardDeck className="carddeck">
 
         <Link to="/lfgredesign" data-aos='fade-up'>
-        <a href="/lfgredesign">
         <Card className="card card-lfg">
           <Card.Body>
             <Card.Title className="cardtitle">LFG website redesign</Card.Title>
@@ -149,11 +148,9 @@ class DepressiveThinking extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        </a>
         </Link>
 
         <Link to="/tiptap" data-aos='fade-up'>
-        <a href="/tiptap">
         <Card className="card card-tiptap">
           <Card.Body>
             <Card.Title className="cardtitle">TipTap</Card.Title>
@@ -164,7 +161,6 @@ class DepressiveThinking extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        </a>
         </Link>
 
         </CardDeck>

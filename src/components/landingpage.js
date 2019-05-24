@@ -60,11 +60,8 @@ class Landing extends Component {
             <Container>
               <Row>
                 <Col lg={{ span: 7, offset: 1}}>
-                  <p className="p-big">Hi! <span className={className2} role="img" aria-label="wavehand">👋  </span> I’m
-
-                   {
-  // eslint-disable-next-line
-  } <a href="#" className={className} onClick={this.toggleHidden.bind(this)}>Steph{!this.state.isHidden && <span className="treasure">an</span>}ie</a>, a Computer Science student with a knack for design.<br />
+                  <p className="p-big">Hi! <span className={className2} role="img" aria-label="wavehand">👋  </span> I’m <button value="Stephie" className={className} onClick={this.toggleHidden.bind(this)}>Steph{!this.state.isHidden && <span className="treasure">an</span>}ie</button>, a
+                  Computer Science student with a knack for design.<br />
                   Currently at Stuttgart Media University.
                   </p>
                 </Col>
@@ -72,9 +69,9 @@ class Landing extends Component {
             </Container>
           </div>
 
-          <div class="mouseWrap" onClick={this.handleOnClick} >
-            <div class="mousey">
-              <div class="scroller"></div>
+          <div className="mouseWrap" onClick={this.handleOnClick} >
+            <div className="mousey">
+              <div className="scroller"></div>
             </div>
           </div>
         </div>

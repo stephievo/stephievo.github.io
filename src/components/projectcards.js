@@ -13,7 +13,6 @@ class ProjectCards extends Component {
       <CardDeck className="carddeck">
 
       <Link to="/lfgredesign" data-aos='fade-up'>
-      <a href="/lfgredesign">
       <Card className="card card-lfg">
         <Card.Body>
           <Card.Title className="cardtitle">LFG website redesign</Card.Title>
@@ -24,11 +23,9 @@ class ProjectCards extends Component {
           </Card.Text>
         </Card.Body>
       </Card>
-      </a>
       </Link>
 
       <Link to="/tiptap" data-aos='fade-up'>
-      <a href="/tiptap">
       <Card className="card card-tiptap">
         <Card.Body>
           <Card.Title className="cardtitle">TipTap</Card.Title>
@@ -39,12 +36,10 @@ class ProjectCards extends Component {
           </Card.Text>
         </Card.Body>
       </Card>
-      </a>
       </Link>
 
       <Link to="/exitgames" data-aos='fade-up'>
-      <a href="/exitgames">
-      <Card className="card">
+      <Card className="card card-exitgames">
         <Card.Body>
           <Card.Title className="cardtitle">Exit Games (WIP)</Card.Title>
           <Card.Text>
@@ -54,12 +49,10 @@ class ProjectCards extends Component {
           </Card.Text>
         </Card.Body>
       </Card>
-      </a>
       </Link>
 
       <Link to="/fleetboard" data-aos='fade-up'>
-      <a href="/fleetboard">
-      <Card className="card">
+      <Card className="card card-fleetboard">
         <Card.Body>
           <Card.Title className="cardtitle">Fleetboard Design System</Card.Title>
           <Card.Text>
@@ -69,11 +62,9 @@ class ProjectCards extends Component {
           </Card.Text>
         </Card.Body>
       </Card>
-      </a>
       </Link>
 
       <Link to="/depressivethinking" data-aos='fade-up'>
-      <a href="/depressivethinking">
       <Card className="card card-depression">
         <Card.Body>
           <Card.Title className="cardtitle">Depressive thinking patterns</Card.Title>
@@ -84,7 +75,6 @@ class ProjectCards extends Component {
           </Card.Text>
         </Card.Body>
       </Card>
-      </a>
       </Link>
 
       </CardDeck>

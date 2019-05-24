@@ -42,6 +42,21 @@
       background-position: -800px 0;
 
   }
+
+  &-exitgames {
+      background: url("../../src/assets/ExitGamesBanner.png") no-repeat;
+      background-size: 470%;
+      background-position: -380px 0;
+
+  }
+
+  &-fleetboard {
+      background-color: #f98354;
+      background: url("../../src/assets/FleetboardBanner.png") no-repeat;
+      background-size: 470%;
+      background-position: -380px 0;
+
+  }
 }
 
 //SMALL PHONES

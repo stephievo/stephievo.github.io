@@ -31,7 +31,7 @@ h3 {
 }
 
 .p-medium {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .subtitle {
@@ -62,7 +62,7 @@ a {
 
 
 
-//SMALL PHONES
+// PHONES
 @media only screen and (max-width: 425px) {
   h1 {
     font-size: 30px;
@@ -71,7 +71,7 @@ a {
     font-size: 24px;
   }
   .p-medium {
-    font-size: 17px;
+    font-size: 14px;
   }
   p {
     font-size: 16px;
@@ -80,6 +80,10 @@ a {
 }
 
 .easteregg {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
   color: $grey;
   position: relative;
   display: inline-block;
@@ -98,12 +102,30 @@ a {
                     #545454,
                     #545454);
   animation: 0.2s shake infinite alternate;
+
+  &:focus {
+    outline:0;
+  }
 }
+
+/* Safari only override */
+.easteregg:not(:root:root){
+  -webkit-text-fill-color: $grey;
+}
+
+
 .treasure {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
   color: #6dc67c;
 
   &:hover {
     color: #6dc67c;
+  }
+  &:focus {
+    outline:0;
   }
 }
 

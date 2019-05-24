@@ -35,10 +35,10 @@ class About extends Component {
       <div className="aboutMeWrap" data-aos='fade-left'>
       <Container>
         <Row>
-          <Col lg={{ span: 6, offset: 1 }}>
+          <Col xl={{ span: 6, order: 1}} md={{ span: 10, offset: 1 }} sm={{ span: 12 }} xs={{ order: 2 }}>
             <p className="p-big">Hi again! </p>
             <br />
-            <p className="p-medium">My name is Steph<span style={{opacity: 0.6}}>an</span>ie Vo and I’m from Munich.
+            <p className="p-medium" style={{ paddingBottom: 150}}>My name is Steph<span style={{opacity: 0.6}}>an</span>ie Vo and I’m from Munich.
             <br />
 I’m currently studying Computer Science and Media at the
 Stuttgart Media University, having focused on Web Development, Computer Graphics and UX.
@@ -53,8 +53,8 @@ Liked what you've seen? Or want to know more? <a href="mailto:hello@stephievo.co
 <br /> Or have a look at my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/19WsMza22zx-i2LW8pHzFY2KAQugqnPu1/view?usp=sharing">résumé</a>.
 </p>
           </Col>
-          <Col lg={{ span: 3, offset: 1 }}>
-            <img src={me} alt="Me" style={{ maxWidth: "100%", borderRadius: "50%", padding: 0, marginTop: 90, marginBottom: 80}}/>
+          <Col xl={{ span: 4, offset: 0, order: 2}} lg={{ span: 4, offset: 4}} md={{ span: 6, offset: 3 }} sm={{span: 8, offset: 2}} xs={{span: 10, offset: 1, order: 1}}>
+            <img src={me} alt="Me" style={{ maxWidth: "100%", paddingTop: 20, marginBottom: 80}}/>
           </Col>
         </Row>
       </Container>

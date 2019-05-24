@@ -109,34 +109,30 @@ class TipTap extends Component {
         <h3>Check out other projects</h3>
         <CardDeck className="carddeck">
 
-        <Link to="/lfgredesign" data-aos='fade-up'>
-        <a href="/lfgredesign">
-        <Card className="card card-lfg">
+        <Link to="/exitgames" data-aos='fade-up'>
+        <Card className="card card-exitgames">
           <Card.Body>
-            <Card.Title className="cardtitle">LFG website redesign</Card.Title>
+            <Card.Title className="cardtitle">Exit Games (WIP)</Card.Title>
             <Card.Text>
             <small className="text-muted">
-              User Research, UX/UI Design, Visual Design
+              User Research, UX Design, Digital Illustration
             </small>
             </Card.Text>
           </Card.Body>
         </Card>
-        </a>
         </Link>
 
-        <Link to="/depressivethinking" data-aos='fade-up'>
-        <a href="/depressivethinking">
-        <Card className="card card-depression">
+        <Link to="/fleetboard" data-aos='fade-up'>
+        <Card className="card card-fleetboard">
           <Card.Body>
-            <Card.Title className="cardtitle">Depressive thinking patterns</Card.Title>
+            <Card.Title className="cardtitle">Fleetboard Design System</Card.Title>
             <Card.Text>
             <small className="text-muted">
-              Digital Illustration
+              Front-End Development
             </small>
             </Card.Text>
           </Card.Body>
         </Card>
-        </a>
         </Link>
 
         </CardDeck>
