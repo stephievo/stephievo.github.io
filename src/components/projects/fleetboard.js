@@ -106,7 +106,7 @@ class Fleetboard extends Component {
           </Col>
           <Col className="cell" lg={7}>
           <p>Being part of this project taught me how to use SASS and BEM, how to work in a fairly big interdisciplinary team across
-          several rooms and how to contribute to a large scale product, all skills that still matter in my profession.
+          several rooms and how to contribute to a large scale product, all skills are important for my future.
           </p>
           </Col>
         </Row>
